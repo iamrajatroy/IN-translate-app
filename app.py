@@ -35,7 +35,7 @@ def run_translation():
         type: string
     responses:
       200:
-        description: Predicted label (Contract-Type) and Probabilities
+        description: Translated text
     """
     if request.method == 'POST':
         inp_txt = request.form['input_text']
